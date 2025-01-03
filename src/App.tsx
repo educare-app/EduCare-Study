@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <h1>Congratulations! Setup is done.</h1>
+      <h2>This is home page</h2>
     </>
   )
 }
