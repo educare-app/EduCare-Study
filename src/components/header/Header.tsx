@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import EduCareLogo from "../../assets/logo/EduCareLogo.png"
 import "./css/header.css"
 
@@ -16,24 +16,16 @@ function Header() {
               <div className="header-menu">
                 <nav id="navbar">
                     <div className="nav-links">
-                      <Link to='/' id="home">
-                        <NavLink to='/'>Home</NavLink>
-                      </Link>
+                      <Link to='/' id="home">Home</Link>
                     </div>
                     <div className="nav-links">
-                      <Link to='/' id="home">
-                        <NavLink to='/'>About</NavLink>
-                      </Link>
+                      <Link to='/about' id="home">About</Link>
                     </div>
                     <div className="nav-links">
-                      <Link to='/' id="home">
-                        <NavLink to='/'>Services</NavLink>
-                      </Link>
+                      <Link to='/services' id="home">Services</Link>
                     </div>
                     <div className="nav-links">
-                      <Link to='/' id="home">
-                        <NavLink to='/'>Career</NavLink>
-                      </Link>
+                      <Link to='/career' id="home">Career</Link>
                     </div>
                     
                 </nav>

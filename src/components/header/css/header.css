@@ -44,20 +44,31 @@
 #navbar a {
     text-decoration: none;
     color: #0F1E33;
+    transition: color 0.2s ease;
 }
+
+#navbar a:hover {
+    color: #0950BA;
+}
+
 
 /* login button  */
 
 #header-login-btn {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
     width: 110px;
-    min-height: 40px;
-    max-height: 40px;
+    min-height: 45px;
+    max-height: 45px;
     cursor: pointer;
-    background-color: #0950BA;
+    background-color: #0950bade;
     color: #ffffff;
     border: none;
     outline: none;
-    font-weight: 600;
     border-radius: 5px;
-    box-shadow: 0 1px 2px #0950BA;
+    transition: all 0.3s ease;
+}
+
+#header-login-btn:hover {
+    background-color: #0950BA;
 }
