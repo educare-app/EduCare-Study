@@ -4,8 +4,7 @@ import "./css/header.css"
 
 function Header() {
   return (
-    <div className="section-one-wrapper">
-      <div className="section-one">
+    <section className="section-one-wrapper">
         <header className="header-wrapper">
           <div className="header-options">
               <Link to='/'>
@@ -35,8 +34,7 @@ function Header() {
               </div>
           </div>
         </header>
-      </div>
-    </div>
+    </section>
   )
 }
 
