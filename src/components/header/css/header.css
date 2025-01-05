@@ -41,6 +41,7 @@
 }
 
 #navbar a {
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #0F1E33;
     transition: color 0.2s ease;
