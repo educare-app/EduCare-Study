@@ -1,12 +1,15 @@
 import { Header, Footer } from "../components/index.components"
 import { Outlet } from "react-router-dom"
+import './app.css'
 
 function App() {
   return (
     <>
       <div>
         <Header/>
-        <Outlet/>
+        <div id="outlets">
+          <Outlet/>
+        </div>
         <Footer/>
       </div>
     </>

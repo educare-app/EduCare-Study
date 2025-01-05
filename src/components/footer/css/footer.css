@@ -1,7 +1,7 @@
 .section-eight-wrapper {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+    max-width: 100%;
+    /* position: fixed; */
+    /* bottom: 0; */
     background-color: #ceddf3;
     padding: 1rem;
 }

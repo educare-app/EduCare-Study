@@ -1,7 +1,7 @@
 .section-one-wrapper,
 .header-wrapper,
 .header-options {
-    width: 100vw;
+    max-width: 100%;
     max-height: 80px;
     min-height: 80px;
     margin-bottom: 2rem;
