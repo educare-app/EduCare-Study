@@ -1,0 +1,81 @@
+.description-wrapper {
+    background-color: #ceddf3;
+    padding: 5rem 2rem;
+    border-radius: 10px;
+}
+
+.description-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.description-content {
+    max-width: 60%;
+}
+
+#des-heading {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#des-subhead {
+    font-family: 'Helvetica Neue', sans-serif;
+    padding-left: 0.3rem;
+}
+
+#des-body {
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+/* connectors  */
+
+.description-connectors {
+    width: 35%;
+}
+
+.connector-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#first-row {
+    justify-content: space-between;
+}
+
+#second-row {
+    justify-content: flex-end;
+    gap: 5.5rem;
+}
+
+#third-row {
+    justify-content: flex-start;
+    gap: 7rem;
+}
+
+#forth-row {
+    justify-content: center;
+    margin-left: 0.8rem;
+}
+
+#staff {
+    margin-left: 1.6rem;
+}
+
+#fifth-row {
+    justify-content: space-between;
+}
