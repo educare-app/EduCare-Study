@@ -3,7 +3,7 @@ import Organic from '../../../../assets/hero/BlueOrganicShape.png'
 import Png from '../../../../assets/hero/HomePageAnimatedPerson.png'
 
 
-import '../css/hero.css'
+import './hero.css'
 import { Link } from 'react-router-dom'
 
 function Hero() {
