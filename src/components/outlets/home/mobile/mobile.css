@@ -1,0 +1,34 @@
+.mobile-section-wrapper {
+    /* background-color: #ceddf3; */
+    background-image: linear-gradient(to right, #ceddf3, #d88c29);
+    padding: 5rem 2rem;
+}
+
+.mobile-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.content {
+    max-width: 60%
+}
+
+#mob-des-heading {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#mob-des-subhead {
+    font-family: 'Helvetica Neue', sans-serif;
+    padding-left: 0.3rem;
+}
+
+#mob-des-body {
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1.6;
+}

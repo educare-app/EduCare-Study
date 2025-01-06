@@ -1,6 +1,8 @@
 import Hero from "./hero/Hero"
 import Clients from "./clients/Clients"
 import Description from "./description/Description"
+import Mobile from "./mobile/Mobile"
+import Why from "./why/Why"
 
 import Todo from '../../../assets/dashboard/to-do-list.png'
 import Fee from '../../../assets/dashboard/fee.png'
@@ -71,8 +73,7 @@ function Home() {
           <div id="description-two">
             <Description 
               heading="Comprehensive User Management"
-              subheading="Control Every Role, Simplified
-"
+              subheading="Control Every Role, Simplified"
               body="From students to staff, alumni, and beyond-manage every user with ease. Access detailed submenus to handle admissions, attendance, complaints, performance, and more. A complete solution to keep your school community organized and connected."
               icons={usermanagement}
             />
@@ -85,6 +86,16 @@ function Home() {
               icons={accountancy}
             />
           </div>
+      </section>
+      <section id="section-five">
+        <div id="mobile-section">
+          <Mobile/>
+        </div>
+      </section>
+      <section id="section-six">
+        <div id="why-section">
+          <Why/>
+        </div>
       </section>
     </main>
   )
