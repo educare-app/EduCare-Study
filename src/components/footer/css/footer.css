@@ -28,6 +28,7 @@
 }
 
 .link-list a {
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #0F1E33;
     transition: color 0.2s ease;
@@ -93,6 +94,7 @@
 }
 
 .contact-info a {
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #0F1E33;
     padding-left: 0.5rem;
@@ -144,6 +146,7 @@
 }
 
 .company-actions a {
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #0F1E33;
     margin-right: 1.5rem;
