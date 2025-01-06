@@ -1,0 +1,21 @@
+.school-logo {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px #0f1e3328;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.school-logo:hover {
+    box-shadow: 0px 5px 5px #0f1e3360;
+}
+
+.school-logo img {
+    width: 170%;
+    height: 100%;
+    border-radius: 80%;
+}
+
