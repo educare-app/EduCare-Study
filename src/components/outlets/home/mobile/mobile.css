@@ -2,6 +2,7 @@
     /* background-color: #ceddf3; */
     background-image: linear-gradient(to right, #ceddf3, #d88c29);
     padding: 5rem 2rem;
+    border-radius: 10px;
 }
 
 .mobile-container {
