@@ -1,68 +1,3 @@
-.description-wrapper {
-    background-color: #ceddf3;
-    padding: 5rem 2rem;
-    border-radius: 10px;
-}
-
-.description-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-}
-
-.description-content {
-    max-width: 60%;
-}
-
-#des-heading {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 3rem;
-    margin: 0;
-}
-
-#des-subhead {
-    font-family: 'Helvetica Neue', sans-serif;
-    padding-left: 0.3rem;
-}
-
-#des-body {
-    margin-top: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: lighter;
-    line-height: 1.6;
-}
-
-/* connectors  */
-
-/* Container holding the connectors */
-.description-connectors {
-    width: 35%;
-    position: relative;
-    display: flex;
-    flex-direction: column; /* Stack rows vertically */
-    gap: 2rem; /* Space between rows */
-}
-
-/* Grid layout for the rows */
-.connector-wrapper {
-    display: flex;
-    flex-direction: column; /* Align connectors in a column */
-    gap: 1.5rem; /* Space between connectors in each row */
-    width: 100%;
-    align-items: center;
-}
-
-/* Row styling */
-.row {
-    display: flex;
-    justify-content: center;
-    gap: 2rem; /* Space between connectors in the same row */
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-evenly; /* Distribute connectors evenly */
-}
-
 /* Styling for the content in the Description component */
 .description-wrapper {
     background-color: #ceddf3;
@@ -77,7 +12,7 @@
 }
 
 .description-content {
-    max-width: 60%;
+    width: 60%;
 }
 
 #des-heading {
@@ -97,4 +32,69 @@
     font-style: italic;
     font-weight: lighter;
     line-height: 1.6;
+}
+
+
+/* Container holding the connectors */
+.description-connectors {
+    width: 35%;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem; 
+}
+
+/* Grid layout for the rows */
+.connector-wrapper {
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5rem; 
+    width: 100%;
+    align-items: center;
+}
+
+/* Row styling */
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+
+
+/* RESPONSIVENESS */
+
+@media (max-width: 760px) {
+
+    .description-wrapper {
+        padding: 3rem 1rem;
+    }
+
+    .description-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .description-content {
+        min-width: 100%;
+    }
+
+    #des-heading {
+        font-size: 2rem;
+    }
+
+    #des-subhead {
+        margin-top: 10px;
+    }
+
+    #des-body {
+        font-weight: 400;
+    }
+
+    .description-connectors {
+        width: 100%;
+    }
 }

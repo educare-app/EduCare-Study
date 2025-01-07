@@ -1,6 +1,5 @@
 .testimonial-section-wrapper {
-    max-width: 100%;   
-    padding: 2rem;
+    padding: 1rem;
     box-sizing: border-box; 
 }
 
@@ -15,9 +14,8 @@
 }
 
 .testimonial-heading {
-    width: 100%; 
-    max-width: 250px; 
-    padding: 1rem 2rem; 
+    width: 300px; 
+    padding: 20px 10px; 
     background-color: #d88c29;
     border-radius: 5px;
     box-shadow: 5px 5px 0px #A5AAB2;
@@ -84,4 +82,18 @@
 .crousal-slides > * {
     flex: 0 0 100%; 
     box-sizing: border-box; 
+}
+
+
+/* RESPONSIVENESS  */
+
+@media (max-width: 760px) {
+    .testimonial-heading {
+        width: 300px;
+        padding: 20px 10px; 
+    }
+
+    .crousal-btn-container {
+        padding: 1rem 1rem 1rem 0;
+    }
 }

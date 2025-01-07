@@ -184,3 +184,34 @@ a {
 
 /* RESPONSIVENESS  */
 
+@media (max-width:990px) {
+    .organic-shape-layer {
+        display: none;
+    }
+
+    .png-layer {
+        display: none;
+    }
+
+    .content-wrapper {
+        width: 100%;
+    }
+
+    .main-heading span{
+        font-size: 2.5em;
+    }
+
+    .sub-heading {
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .hero-body-text {
+        font-weight: 400;
+    }
+
+    .hero-cta-wrapper {
+        margin-top: 3rem;
+    }
+}

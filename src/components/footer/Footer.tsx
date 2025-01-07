@@ -36,21 +36,6 @@ function Footer() {
               <Link to='/request-a-demo'>Request a demo</Link>
             </div>
           </div>
-
-          {/* Copyright */}
-
-          <div className="copyright">
-            <div className="copyright-info">
-              <span>Copyright &#169; 2025</span>
-              <br />
-              <span>All rights reserved.</span>
-            </div>
-            <div className="footer-logo">
-              <Link to='/'>
-                <img src={EduCareLogo} alt="logo"/>
-              </Link>
-            </div>
-          </div>
         </div>
 
         {/* footer right  */}
@@ -122,18 +107,34 @@ function Footer() {
                 </div>
               </div>
             </div>
-
-            {/* Company actions  */}
-
-            <div className="company-actions">
-              <Link to='/company/privacy'>Privacy</Link>
-              <Link to='/company/policy-and-procedures'>Policy & Procedures</Link>
-              <Link to='/company/refund'>Refund</Link>
-              <Link to='/company/cancellation'>Cancellation</Link>
-            </div>
-          </div>
+        </div>
         </div>
       </footer>
+      <div className="copy-action-wrapper">
+        {/* Company actions  */}
+
+        <div className="company-actions">
+            <Link to='/company/privacy'>Privacy</Link>
+            <Link to='/company/policy-and-procedures'>Policy & Procedures</Link>
+            <Link to='/company/refund'>Refund</Link>
+            <Link to='/company/cancellation'>Cancellation</Link>
+        </div>
+
+        {/* Copyright */}
+
+        <div className="copyright">
+          <div className="copyright-info">
+            <span>Copyright &#169; 2025</span>
+            <br />
+            <span>All rights reserved.</span>
+          </div>
+          <div className="footer-logo">
+            <Link to='/'>
+              <img src={EduCareLogo} alt="logo"/>
+            </Link>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }

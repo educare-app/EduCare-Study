@@ -51,14 +51,10 @@ function Home() {
   return (
     <main id="main-section">
       <section id="section-two">
-        <div id="hero-section">
           <Hero/>
-        </div>
       </section>
       <section id="section-third">
-        <div id="client-section">
           <Clients/>
-        </div>
       </section>
       <section id="section-four">
           <div id="description-one">
@@ -87,19 +83,13 @@ function Home() {
           </div>
       </section>
       <section id="section-five">
-        <div id="mobile-section">
           <Mobile/>
-        </div>
       </section>
       <section id="section-six">
-        <div id="why-section">
           <Why/>
-        </div>
       </section>
       <div id="section-seven">
-        <div id="testimonial-section">
           <Testimonials/>
-        </div>
       </div>
     </main>
   )

@@ -1,9 +1,6 @@
 .section-eight-wrapper {
-    max-width: 100%;
-    /* position: fixed; */
-    /* bottom: 0; */
     background-color: #ceddf3;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 #footer {
@@ -38,29 +35,6 @@
     color: #0950BA;
 }
 
-/* copyright */
-
-.copyright {
-    padding-left: 0.5rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: #0F1E33;
-    gap: 1rem;
-}
-
-.copyright-info {
-    font-size: 15px;
-}
-
-.footer-logo {
-    width: 120px;
-    max-width: 120px;
-}
-
-.footer-logo img {
-    width: 100%;
-}
 
 /* footer right  */
 
@@ -89,7 +63,7 @@
 }
 
 .contact-info img {
-    width: 15px;
+    width: 25px;
     padding-left: 0.5rem;
 }
 
@@ -140,6 +114,39 @@
     gap: 1rem;
 }
 
+/* copyright */
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #0F1E33;
+    gap: 1rem;
+}
+
+.copyright-info {
+    font-size: 15px;
+}
+
+.footer-logo {
+    width: 120px;
+    max-width: 120px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+
+.copy-action-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 .company-actions {
     padding-left: 0.6rem;
     margin-top: 2rem;
@@ -160,3 +167,42 @@
 
 /* RESPONSIVENESS  */
 
+@media (max-width: 999px) {
+    #footer {
+        flex-direction: column;
+    }
+
+    /* footer-right-one */
+    .contact-address-wrapper {
+        flex-direction: column;
+    }
+
+    /* copyright and action  */
+    .copy-action-wrapper {
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .copyright {
+        gap: 8rem;
+    }
+
+    .footer-logo {
+        width: 100px;
+    }
+
+    .company-actions a {
+        display: block;
+        margin: 5px 0px;
+    }
+
+    .address iframe {
+        width: 90%;
+        height: 250px;
+    }
+}

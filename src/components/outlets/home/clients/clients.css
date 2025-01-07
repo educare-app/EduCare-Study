@@ -23,12 +23,6 @@
     box-shadow: 6px 6px 3px #0f1e3360;
 }
 
-/* client logo  */
-
-/* 
-overflow: hidden;
-position: relative;
-white-space: nowrap; */
 
 .client-logo-wrapper {
     width: 100%;
@@ -45,13 +39,3 @@ white-space: nowrap; */
     gap: 20px;
 }
 
-/* animation  */
-
-/* @keyframes scroll {
-    0%{
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-} */
