@@ -3,6 +3,7 @@ import Clients from "./clients/Clients"
 import Description from "./description/Description"
 import Mobile from "./mobile/Mobile"
 import Why from "./why/Why"
+import Testimonials from "./testimonials/Testimonials"
 
 import Todo from '../../../assets/dashboard/to-do-list.png'
 import Fee from '../../../assets/dashboard/fee.png'
@@ -97,6 +98,11 @@ function Home() {
           <Why/>
         </div>
       </section>
+      <div id="section-seven">
+        <div id="testimonial-section">
+          <Testimonials/>
+        </div>
+      </div>
     </main>
   )
 }

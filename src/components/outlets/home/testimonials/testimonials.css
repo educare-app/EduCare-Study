@@ -1,0 +1,87 @@
+.testimonial-section-wrapper {
+    max-width: 100%;   
+    padding: 2rem;
+    box-sizing: border-box; 
+}
+
+.testimonial-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+.testimonial-heading {
+    width: 100%; 
+    max-width: 250px; 
+    padding: 1rem 2rem; 
+    background-color: #d88c29;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px #A5AAB2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+#test-heading {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Carousel Button */
+
+.crousal-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 1rem 5rem 1rem 0;
+    box-sizing: border-box;
+}
+
+#arrow-btn {
+    width: 40px;
+    height: 40px; 
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+#btn {
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+#arrow-btn:hover #btn {
+    transform: scale(1.2);
+}
+
+/* Additional Adjustments for Carousel Wrapper */
+
+.crousal-wrapper {
+    overflow: hidden;
+    width: 100%; 
+    box-sizing: border-box;
+    position: relative; 
+}
+
+.crousal-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out; 
+    width: 100%; 
+}
+
+.crousal-slides > * {
+    flex: 0 0 100%; 
+    box-sizing: border-box; 
+}
