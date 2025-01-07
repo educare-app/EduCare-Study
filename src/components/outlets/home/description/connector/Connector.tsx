@@ -1,9 +1,9 @@
 import './connector.css'
 
-function Connector({path, title}: {path: string, title: string}) {
+function Connector({path}: {path: string}) {
   return (
     <div className='logo-wrapper'>
-        <img src={path} alt={`${title}-logo`} title={title}/>
+        <img src={path} alt='logo' />
     </div>
   )
 }

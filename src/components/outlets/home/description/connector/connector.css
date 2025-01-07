@@ -1,16 +1,48 @@
 .logo-wrapper {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    background-color: transparent;
-    border: 1px solid black;
-    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 3px solid transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
+    animation: border-animation 1s linear infinite;
+}
+
+
+
+/* Animated gradient border */
+@keyframes border-animation {
+    0% {
+        border-image: linear-gradient(45deg, blue, orange, violet, orange) 1;
+    }
+    25% {
+        border-image: linear-gradient(135deg, blue, orange, violet, orange) 1;
+    }
+    50% {
+        border-image: linear-gradient(225deg, blue, orange, violet, orange) 1;
+    }
+    75% {
+        border-image: linear-gradient(315deg, blue, orange, violet, orange) 1;
+    }
+    100% {
+        border-image: linear-gradient(45deg, blue, orange, violet, orange) 1;
+    }
 }
 
 .logo-wrapper img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 }
+
+/* Hover effect for the icons */
+.logo-wrapper:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+

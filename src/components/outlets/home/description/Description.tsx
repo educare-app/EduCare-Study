@@ -19,26 +19,26 @@ function Description({heading, subheading, body, icons}: {heading: string, subhe
             <div className="description-connectors">
                 <div className="connector-wrapper">
                     <div id="first-row" className='row'>
-                        <Connector path={icons[0]} title='Todo'/>
-                        <Connector path={icons[1]} title='Fee'/>
+                        <Connector path={icons[0]} />
+                        <Connector path={icons[1]} />
+                        <Connector path={icons[3]}/>
                     </div>
                     <div id="second-row" className='row'>
-                        <Connector path={icons[2]} title='Accountancy'/>
-                        <Connector path={icons[3]} title='Enrollment'/>
+                        <Connector path={icons[2]}/>
                     </div>
                     <div id="third-row" className='row'>
-                        <Connector path={icons[4]} title='Events'/>
-                        <Connector path={icons[5]} title='Bar'/>
+                        <Connector path={icons[4]}/>
+                        <Connector path={icons[5]}/>
                     </div>
                     <div id="forth-row" className='row'>
-                        <Connector path={icons[6]} title='Bus'/>
+                        <Connector path={icons[6]} />
                     </div>
                     <div id="fifth-row" className='row'>
-                        <Connector path={icons[7]} title='Message'/>
+                        <Connector path={icons[7]} />
                         <div id="staff">
-                            <Connector path={icons[8]} title='Staff'/>
+                            <Connector path={icons[8]} />
                         </div>
-                        <Connector path={icons[9]} title='Student'/>
+                        <Connector path={icons[9]}/>
                     </div>
                 </div>
             </div>
