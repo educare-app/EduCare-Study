@@ -48,8 +48,6 @@ function Home() {
 
   const accountancy = [Inventoryreport, Location, Collection, Due, Expenses, Inventory, Paid, Payment, Purchase, Sales]
 
-  console.log(dashboard, usermanagement, accountancy)
-
   return (
     <main id="main-section">
       <section id="section-two">
