@@ -98,3 +98,28 @@
         width: 100%;
     }
 }
+
+
+@media (min-width:1400px) {
+    .description-wrapper {
+        min-height: 650px;
+        display: flex;
+        align-items: center;
+    }
+
+    #des-subhead {
+        margin-top: 1rem;
+    }
+
+    #des-body {
+        max-width: 80%;
+    }
+
+    .description-connectors {
+        width: 50%;
+    }
+
+    .connector-wrapper {
+        gap: 3rem;
+    }
+}

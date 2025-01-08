@@ -60,3 +60,27 @@
     }
 
 }
+
+@media (min-width:1400px) {
+    .mobile-section-wrapper {
+        height: 700px;
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile-container {
+        gap: 10rem;
+    }
+
+    .content {
+        width: 40%;
+    }
+
+    .mobile-img-wrapper {
+        width: 50%;
+    }
+
+    #mob-des-body {
+        width: 70%;
+    }
+}
