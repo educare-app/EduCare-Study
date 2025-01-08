@@ -61,21 +61,21 @@ function Header() {
             <div className="res-header-menu">
               <nav id="res-navbar">
                 <div className="res-nav-links">
-                  <Link to='/' id="home">Home</Link>
+                  <Link to='/' id="home" onClick={handleMenu}>Home</Link>
                 </div>
                 <div className="res-nav-links">
-                  <Link to='/about' id="home">About</Link>
+                  <Link to='/about' id="home" onClick={handleMenu}>About</Link>
                 </div>
                 <div className="res-nav-links">
-                  <Link to='/services' id="home">Services</Link>
+                  <Link to='/services' id="home" onClick={handleMenu}>Services</Link>
                 </div>
                 <div className="res-nav-links">
-                  <Link to='/career' id="home">Career</Link>
+                  <Link to='/career' id="home" onClick={handleMenu}>Career</Link>
                 </div>
               </nav>
             </div>
             <div className="res-header-login-wrapper">
-              <button id="header-login-btn">Login</button>
+              <button id="header-login-btn" onClick={handleMenu}>Login</button>
             </div>
           </div>
       </header>

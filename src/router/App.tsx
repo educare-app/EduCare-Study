@@ -1,4 +1,5 @@
 import { Header, Footer } from "../components/index.components"
+import ErrorBoundary from "./ErrorBoundary"
 import { Outlet } from "react-router-dom"
 import './app.css'
 
@@ -7,9 +8,11 @@ function App() {
     <>
       <div id="app">
         <Header/>
-        <div id="outlets">
-          <Outlet/>
-        </div>
+        <ErrorBoundary>
+          <div id="outlets">
+            <Outlet/>
+          </div>
+        </ErrorBoundary>
         <Footer/>
       </div>
     </>
