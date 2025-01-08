@@ -1,4 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body overflow hidden by default */
+html, body {
+  overflow-x: hidden;
 }

@@ -1,0 +1,17 @@
+#outlets {
+    margin: 3% 10%;
+}
+
+/* RESPONSIVENESS  */
+
+@media (max-width: 1000px) {
+    #outlets {
+        margin: 3% 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    #outlets {
+        margin: 3% 2%;
+    }
+}
