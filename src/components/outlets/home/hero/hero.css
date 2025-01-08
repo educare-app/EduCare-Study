@@ -93,6 +93,7 @@
     top: 0;
     margin-top: 5%;
     padding: 1rem;
+    margin-top: -0.1rem;
 }
 
 .content-wrapper {
@@ -122,6 +123,7 @@
     font-style: italic;
     opacity: 0.6;
     line-height: 1.4;
+    margin-top: 1rem;
 }
 
 /* hero-cta-btn  */
@@ -130,6 +132,7 @@
     position: relative; 
     width: 200px;
     height: 45px;
+    margin-top: 2rem;
     background-image: linear-gradient(to right, #6689BA, #0950BA);
     display: flex;
     justify-content: center;
