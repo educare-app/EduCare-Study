@@ -44,7 +44,7 @@
 
 .contact-address-wrapper {
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 /* contact  */
@@ -144,7 +144,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 
 .company-actions {
@@ -170,11 +170,18 @@
 @media (max-width: 999px) {
     #footer {
         flex-direction: column;
+        gap: 2rem
+        ;
+    }
+
+    #footer-right {
+        gap: 3rem;
     }
 
     /* footer-right-one */
     .contact-address-wrapper {
         flex-direction: column;
+        gap: 2rem;
     }
 
     /* copyright and action  */
@@ -204,5 +211,11 @@
     .address iframe {
         width: 90%;
         height: 250px;
+    }
+}
+
+@media (min-width:1400px) {
+    .contact-address-wrapper {
+        gap: 10rem;
     }
 }

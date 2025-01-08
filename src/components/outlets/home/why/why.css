@@ -111,3 +111,10 @@
         padding-top: 1rem;
     }
 }
+
+@media (min-width:1400px) {
+    .why-section-container {
+        margin: 2rem 0rem;
+        gap: 5rem;
+    }
+}
