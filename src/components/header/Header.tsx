@@ -43,7 +43,7 @@ function Header() {
                 </nav>
               </div>
               <div className="header-login-wrapper">
-                <button id="header-login-btn">Login</button>
+                <Link to='/admin' id="header-login-btn">Login</Link>
               </div>
           </div>
 
@@ -75,7 +75,7 @@ function Header() {
               </nav>
             </div>
             <div className="res-header-login-wrapper">
-              <button id="header-login-btn" onClick={handleMenu}>Login</button>
+              <Link to='/admin' id="header-login-btn" onClick={handleMenu}>Login</Link>
             </div>
           </div>
       </header>
